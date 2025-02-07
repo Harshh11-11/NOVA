@@ -61,7 +61,7 @@ const Apifetch = async (prompt: string): Promise<string> => {
       "AIzaSyBdY3eyL81fK0bhvDpnneUaw6kmmd3d5Io"
     );
     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
-    let prompt1 = "Answer as if your name is nova ." + prompt;
+    const prompt1 = "Answer as if your name is nova ." + prompt;
 
     const result = await model.generateContent(prompt1);
     return result.response.text(); // Return the response text

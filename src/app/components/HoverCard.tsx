@@ -29,7 +29,7 @@ export default function HoverCard() {
           {/* Text Content */}
           <div className="space-y-6 pt-5 text-base leading-7 text-white transition-all duration-300 group-hover:text-white/90">
             <p>
-              I'm NOVA, a smart assistant that helps with answering questions,
+              I&apos;m NOVA, a smart assistant that helps with answering questions,
               solving problems, and creating things. Whether you need help with
               writing, learning, or building cool projects, I’m here to assist!
             </p>
